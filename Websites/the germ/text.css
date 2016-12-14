@@ -1,0 +1,51 @@
+body{
+  background-image:url("http://www.whitelineapps.com/wp-content/uploads/2012/10/whiteLinedPaper.jpg");
+  background-size: 100%;
+}
+
+#name{
+  float:center;
+  font-size: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#something {
+  float:center;
+  height:20px;
+  width:20px;
+}
+
+table {
+  background-color: white;
+  width:500px;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom:10px;
+  border: 1px solid white;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+
+}
+
+#eng {
+  padding-top: 100px;
+  font-size:40px;
+  font-family: arial;
+}
+
+td{
+  font-weight: lighter;
+}
+
+th{
+  border: 1px solid white;
+  background-color: yellow;
+  color:Black;
+}

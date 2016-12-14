@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="generic.css">
+<style type="text/css">
+    .label {
+        font-weight: bold;
+        color: turquoise;
+
+}
+
+
+.interest {
+	background: #eeeeee;
+margin: 5px;
+float: left;
+color: red;
+padding: 9px;
+border-radius: 10px;
+}
+
+.divider {
+	clear:both;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+    <h1>
+        <a id="logo" href="index.html">
+            Tribuo.
+        </a>
+    </h1>
+        <div id="menu">
+            <img src="menu.png" onclick="SwitchMenu()" />
+            <br/>
+            <a id="hidden_menu" href="profile.html">Profile</a>
+        </div>
+</div>
+<div id="main_content">
+
+
+<h2>Profile Page</h2>
+
+<p>
+	<span class='label'>Name:</span>
+ 	Tonia
+ </p>
+ <p>
+ 	<span class='label'>Interests:</span>
+ </p>
+ 	<div class="interest">
+        <div class="icon" style="background-image: url('https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/512x512/plain/basketball.png');"></div>
+        Basketball
+    </div>
+ 	<div class="interest">
+        <div class="icon" style="background-image: url('https://c1.staticflickr.com/5/4043/4248705585_e313c6e2a0_o.jpg');"></div>
+        Rihanna
+    </div> 
+   <div class="interest">
+        <div class="icon" style="background-image: url('http://41.media.tumblr.com/tumblr_mcgzjyQcny1r0vfxzo1_500.jpg');"></div>
+        Art
+    </div> 
+ <div class="interest">
+        <div class="icon" style="background-image: url('http://3.bp.blogspot.com/-6il_JMllIxA/UEWvO41jJlI/AAAAAAAAEOI/DtlVoKR6pDY/s1600/Math-Formulas-960x600.jpg');"></div>
+        Math
+    </div> 
+<div class="divider"></div>
+
+<p>
+<span class='label'>Friends:</span>
+ 	David, Daniel, Matthew
+</p>
+<p>
+<span class='label'>Questions Asked:</span>
+    <div class="Questions Asked">
+        <div class= "Questions Asked">Tonia: What is the organelle that makes ATP?</div>
+        <div class="Questios Asked">David: The organelle that makes ATP is the mmitochondrion</div>
+ </p>
+
+<p>
+<span class='label'>Answered Questions:</span>
+ 	<div class="Answered Questions">
+    <div class="Answered Questions">Matthew: What is the valency of nitrogen?</div>
+    <div class="Answered Questions">Tonia: The valency of nitrogen is 5 electrons</div>
+</p>
+
+
+</div>
+</body>
+<script>
+    function SwitchMenu() {
+        var hidden_menu;
+        hidden_menu = document.getElementById("hidden_menu");
+        if ( hidden_menu.style.display != "block" ) {   
+            hidden_menu.style.display = "block";
+        } else {
+            hidden_menu.style.display = "none";
+        }
+    }
+</script>
+</html>
+
+

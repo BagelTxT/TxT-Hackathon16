@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color: red;"> 
+
+	<div>
+		<h1 style="color:black">COMPLAIN</h1>
+		<p style="color: turquoise;">
+			Hi, Welcome to Complaints.
+		</p>	
+		<p style="color: turquoise;">
+			Here is where you can write the thing that happened to you.
+		</p>
+
+		<div>
+			<input id="complaint" type="" name="">
+			<button onclick="submitted()">Submit</button>
+		</div>
+
+		<div>
+			<a href="home.html">home</a>
+			<a href="compliments.html">compliments</a>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		function submitted(compliment) {
+			var complaint = document.getElementById('complaint');
+			console.log(complaint.value);
+			alert("Thank you for submitted your complaint: " + complaint.value);
+		}
+	</script>
+
+</body>
+</html>

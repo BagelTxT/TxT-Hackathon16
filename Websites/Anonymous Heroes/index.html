@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="generic.css">
+<style type="text/css">
+
+</style>
+</head>
+
+
+<body>
+<div id="header">
+    <h1>
+    	<a id="logo" href="index.html">
+    		Tribuo.
+    	</a>
+
+    </h1>
+    	<div id="menu">
+    		<img src="menu.png" onclick="SwitchMenu()" />
+    		<br/>
+			<a id="hidden_menu" href="profile.html">Profile</a>
+    	</div>
+</div>
+<div id="main_content">
+	<h2>Home Page</h2>
+	
+
+	<h3>Make a post:</h3>
+	<textarea placeholder="What do you need?"></textarea>
+
+	<p><input type="checkbox">Get messaged directly</p>
+	<div class='button'>Submit</div>
+	<div class="divider"></div>
+
+
+	<p>Do you need help on...</p>
+
+	<p><input type="checkbox">Math</p>
+	<p><input type="checkbox">Science</p>
+	<p><input type="checkbox">ELA</p>
+	<p><input type="checkbox">Social Studies</p>
+
+	<h2>Post Feed</h2>
+	<h3>Just now...</h3>
+	<div class="box">I need help with my math homework.</div>
+	<textarea placeholder="Add a comment.."></textarea></u>
+	<div class='button'>Reply</div>
+	<div class="divider"></div>
+
+	<h3>Two hours ago...</h3>
+	<div class="box">How do you make an inequality?.</div>
+	<textarea placeholder="Add a comment.."></textarea></u>
+	<div class='button'>Reply</div>
+	<div class="divider"></div>
+</div>
+
+</body>
+
+<script>
+	function SwitchMenu() {
+		var hidden_menu;
+		hidden_menu = document.getElementById("hidden_menu");
+		if ( hidden_menu.style.display != "block" ) {	
+			hidden_menu.style.display = "block";
+		} else {
+			hidden_menu.style.display = "none";
+		}
+	}
+</script>
+
+</html>
+
+
+
+
+
+
+
+

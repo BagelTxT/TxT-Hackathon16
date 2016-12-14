@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-color: green; "> 
+
+<div>
+	<h1>Compliments</h1>
+	<p>! Welcome to Compliments!</p>
+		<p>Here, you can report anything good an officer does.</p>
+ 
+</div>
+<a href="home.html">home</a>
+<a href="complaints.html">complaints</a>
+
+
+
+<div>
+	<input id="compliment" type="" name="">
+	<button onclick="submitted(compliment)">submit</button>
+</div>
+	<script type="text/javascript">
+
+
+		function submitted(compliment) {
+			var compliment = document.getElementById('compliment');
+			console.log(compliment.value);
+			alert("Thank you for submitted your compliment: " + compliment.value);
+		}
+	</script>
+</body>
+</html>

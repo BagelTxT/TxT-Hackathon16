@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<style>
+			h1 {
+    		color: F07830;
+   			 text-align: center;
+   			 font-size: 150px;
+				}
+			h3 {
+			color: A8D8F0;
+    		text-align: center;
+    		font-size: 50px;
+				}
+			#Start{
+			background-color:F07830;
+			font-family: verdana;
+			height: 300px;
+			width: 300px;
+			text-align:center;
+			border-radius: 30px;
+			line-height: 280px;
+			font-size: 50px;
+			 margin-left: auto ;
+  			margin-right: auto ;
+  			margin-top: auto;
+  			margin-bottom: :auto;
+  			font-size: 80px;
+
+
+
+			}
+			#Start:hover{
+				border-color: black;
+				border-style: solid;
+				border-width: .5px;
+				line-height: 200px;
+
+
+			}
+			#Form{
+				background-color:F07830;
+				margin-left: auto ;
+  				margin-right: auto ;
+  				margin-top: auto;
+  				margin-bottom: :auto;
+  				height: 400px;
+				width: 400px;
+				display: none;
+				text-align: center;
+				border-radius: 30px;
+				font-size: 30px;
+			}
+			body{
+				background-color: 487890;
+			}
+			p{
+				color: A8D8F0;
+			}
+
+		</style>
+		<script type="text/javascript">
+			function myStart(){
+				document.getElementById("Start").style.display = "none";
+				document.getElementById("h3").style.display = "none";
+				document.getElementById("Form").style.display = "block";
+
+			}
+		</script>
+	
+	</head>
+	<body>
+	<h1> Track Attack</h1>
+	<h3 id = "h3">A Way Of Changing Habits and Getting Rewards</h3>
+	<div id = "Start" onclick = "myStart()">
+		<p>Start</p>
+	</div>
+	<br>
+	<div id = "Form">
+		<form> Record <br><br>
+			 First name:<br>
+  			<input type="text" name="firstname" value="First Name">
+  			<br>
+  			Last name:<br>
+  			<input type="text" name="lastname" value="Last Name">
+ 			<br>
+ 			Target:<br>
+ 			Months:
+  			<input type="number" name="Number of Months" min="0" max="12" step="1" value="1">
+  			<br>
+  		    Reward:
+  			<input type="number" name="Number of Months" min="0" max="20" step="1" value="1">
+            
+		</form>
+	</div>
+	</body>
+   </html>
